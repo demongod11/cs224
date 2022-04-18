@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/cs221_lab/cs224_lab4/upcounter.xst" -ofn "C:/cs221_lab/cs224_lab4/upcounter.syr" 

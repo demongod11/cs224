@@ -1,0 +1,29 @@
+Command line:
+   rca_delay_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53014
+
+Tue Jan 18 17:02:25 2022
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5145.63 Meg
+
+ Total Signals          : 45
+ Total Nets             : 37
+ Total Signal Drivers   : 17
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 18
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 117
+Total Line Count : 26
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5145.63 Meg
+
+Tue Jan 18 17:02:41 2022
+

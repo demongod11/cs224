@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/cs221_lab/cs221_lab3/mux1.xst" -ofn "C:/cs221_lab/cs221_lab3/mux1.syr" 

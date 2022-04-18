@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/cs221_lab/cs221_lab2/test_delay_rca_isim_beh.exe -prj C:/cs221_lab/cs221_lab2/test_delay_rca_beh.prj work.test_delay_rca work.glbl 
+ISim P.40xd (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/cs221_lab/cs221_lab2/delay_rca.v" into library work
+Analyzing Verilog file "C:/cs221_lab/cs221_lab2/test_delay_rca.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.3/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/cs221_lab/cs221_lab2/delay_rca.v" Line 26: Size mismatch in connection of port <Cin>. Formal port size is 1-bit while actual signal size is 4-bit.
+Completed static elaboration
+Compiling module fulladder
+Compiling module delay_rca
+Compiling module test_delay_rca
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 4 Verilog Units
+Built simulation executable C:/cs221_lab/cs221_lab2/test_delay_rca_isim_beh.exe
+Fuse Memory Usage: 27388 KB
+Fuse CPU Usage: 561 ms

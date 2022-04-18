@@ -1,0 +1,23 @@
+ISim log file
+Running: C:\cs221_lab\cs221_lab2\test_delay_rca_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/cs221_lab/cs221_lab2/test_delay_rca_isim_beh.wdb 
+ISim P.40xd (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/cs221_lab/cs221_lab2/delay_rca.v" Line 22.  For instance uut/u1/, width 1 of formal port Cin is not equal to width 4 of actual signal Cin.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0, X = 0000, Y = 0000, Cin = 0000, S = xxxx, Cout = x
+                   2, X = 0000, Y = 0000, Cin = 0000, S = xxx0, Cout = 0
+                   4, X = 0000, Y = 0000, Cin = 0000, S = 0000, Cout = 0
+                 100, X = 1111, Y = 1101, Cin = 0001, S = 0000, Cout = 0
+                 102, X = 1111, Y = 1101, Cin = 0001, S = 0011, Cout = 1
+                 104, X = 1111, Y = 1101, Cin = 0001, S = 1001, Cout = 1
+                 106, X = 1111, Y = 1101, Cin = 0001, S = 1101, Cout = 1
+                 200, X = 0001, Y = 1111, Cin = 0001, S = 1101, Cout = 1
+                 202, X = 0001, Y = 1111, Cin = 0001, S = 0001, Cout = 1

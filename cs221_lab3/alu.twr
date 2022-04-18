@@ -1,0 +1,141 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf
+
+Design file:              alu.ncd
+Physical constraint file: alu.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (ADVANCED 1.05 2012-10-12)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock s<1>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+a<0>        |    0.925(F)|      SLOW  |    0.268(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+a<1>        |    1.016(F)|      SLOW  |    0.154(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+a<2>        |    1.688(F)|      SLOW  |    0.323(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+a<3>        |    0.831(F)|      SLOW  |    0.270(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+b<0>        |    0.836(F)|      SLOW  |    0.341(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+b<1>        |    1.020(F)|      SLOW  |    0.175(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+b<2>        |    1.289(F)|      SLOW  |    0.024(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+b<3>        |    0.612(F)|      SLOW  |    0.767(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+cin         |    1.060(F)|      SLOW  |    0.156(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+s<0>        |    0.277(F)|      FAST  |    0.732(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock s<2>
+------------+------------+------------+------------+------------+---------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------+------------+------------+------------+------------+---------------------+--------+
+a<0>        |    1.236(F)|      SLOW  |   -0.001(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+a<1>        |    1.327(F)|      SLOW  |   -0.144(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+a<2>        |    1.999(F)|      SLOW  |    0.018(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+a<3>        |    1.142(F)|      SLOW  |   -0.012(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+b<0>        |    1.147(F)|      SLOW  |    0.041(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+b<1>        |    1.331(F)|      SLOW  |   -0.058(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+b<2>        |    1.600(F)|      SLOW  |   -0.179(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+b<3>        |    0.923(F)|      SLOW  |    0.390(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+cin         |    1.371(F)|      SLOW  |   -0.056(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+s<0>        |    0.573(F)|      SLOW  |    0.355(F)|      SLOW  |s[2]_GND_2_o_Mux_11_o|   0.000|
+------------+------------+------------+------------+------------+---------------------+--------+
+
+Clock s<1> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+cout        |         5.520(F)|      SLOW  |         2.645(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock s<2> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+cout        |         5.143(F)|      SLOW  |         2.476(F)|      FAST  |s[2]_GND_2_o_Mux_11_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |o<0>           |    5.839|
+a<0>           |o<1>           |    6.198|
+a<0>           |o<2>           |    6.161|
+a<0>           |o<3>           |    6.327|
+a<1>           |o<0>           |    5.247|
+a<1>           |o<1>           |    6.439|
+a<1>           |o<2>           |    6.252|
+a<1>           |o<3>           |    6.424|
+a<2>           |o<1>           |    6.388|
+a<2>           |o<2>           |    7.115|
+a<2>           |o<3>           |    6.601|
+a<3>           |o<0>           |    5.664|
+a<3>           |o<2>           |    5.624|
+a<3>           |o<3>           |    6.618|
+b<0>           |o<0>           |    5.525|
+b<0>           |o<1>           |    6.032|
+b<0>           |o<2>           |    6.072|
+b<0>           |o<3>           |    6.237|
+b<1>           |o<1>           |    6.822|
+b<1>           |o<2>           |    6.256|
+b<1>           |o<3>           |    6.437|
+b<2>           |o<2>           |    6.720|
+b<2>           |o<3>           |    6.031|
+b<3>           |o<3>           |    6.416|
+cin            |o<0>           |    5.511|
+cin            |o<1>           |    6.020|
+cin            |o<2>           |    6.296|
+cin            |o<3>           |    6.470|
+s<0>           |o<0>           |    5.654|
+s<0>           |o<1>           |    6.435|
+s<0>           |o<2>           |    5.831|
+s<0>           |o<3>           |    6.154|
+s<1>           |o<0>           |    5.940|
+s<1>           |o<1>           |    6.674|
+s<1>           |o<2>           |    6.028|
+s<1>           |o<3>           |    6.098|
+s<2>           |o<0>           |    5.461|
+s<2>           |o<1>           |    6.295|
+s<2>           |o<2>           |    5.462|
+s<2>           |o<3>           |    6.297|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Jan 25 17:16:58 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5003 MB
+
+
+

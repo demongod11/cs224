@@ -1,0 +1,4 @@
+verilog work "sram_sync.v"
+verilog work "reg_file.v"
+verilog work "alu.v"
+verilog work "mem_controller.v"

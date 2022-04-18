@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/cs221_lab/cs224_lab_09/mem_controller_test_isim_beh.exe -prj C:/cs221_lab/cs224_lab_09/mem_controller_test_beh.prj work.mem_controller_test work.glbl 
+ISim P.40xd (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/cs221_lab/cs224_lab_09/sync_sram.v" into library work
+Analyzing Verilog file "C:/cs221_lab/cs224_lab_09/mem_reg.v" into library work
+Analyzing Verilog file "C:/cs221_lab/cs224_lab_09/alu.v" into library work
+Analyzing Verilog file "C:/cs221_lab/cs224_lab_09/mem_controller.v" into library work
+Analyzing Verilog file "C:/cs221_lab/cs224_lab_09/mem_controller_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.3/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "C:/cs221_lab/cs224_lab_09/mem_controller.v" Line 50: Target <MDR_one> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/cs221_lab/cs224_lab_09/mem_controller.v" Line 51: Target <MDR_two> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/cs221_lab/cs224_lab_09/mem_controller.v" Line 52: Target <out> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Compiling module sync_sram
+Compiling module mem_reg
+Compiling module alu
+Compiling module mem_controller
+Compiling module mem_controller_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable C:/cs221_lab/cs224_lab_09/mem_controller_test_isim_beh.exe
+Fuse Memory Usage: 27988 KB
+Fuse CPU Usage: 687 ms

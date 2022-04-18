@@ -1,0 +1,37 @@
+ISim log file
+Running: C:\cs221_lab\cs224_lab6\sequence_1001_delay_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/cs221_lab/cs224_lab6/sequence_1001_delay_test_isim_beh.wdb 
+ISim P.40xd (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0 x=0 mealy=0 Dmealy=x , reset=0
+                   4 x=0 mealy=0 Dmealy=0 , reset=0
+                  10 x=0 mealy=0 Dmealy=0 , reset=1
+                  20 x=0 mealy=0 Dmealy=0 , reset=0
+                  40 x=1 mealy=0 Dmealy=0 , reset=0
+                  50 x=0 mealy=0 Dmealy=0 , reset=0
+                  70 x=1 mealy=1 Dmealy=0 , reset=0
+                  74 x=1 mealy=1 Dmealy=1 , reset=0
+                  75 x=1 mealy=0 Dmealy=1 , reset=0
+                  79 x=1 mealy=0 Dmealy=0 , reset=0
+                  80 x=0 mealy=0 Dmealy=0 , reset=0
+                 100 x=1 mealy=1 Dmealy=0 , reset=0
+                 104 x=1 mealy=1 Dmealy=1 , reset=0
+                 105 x=1 mealy=0 Dmealy=1 , reset=0
+                 109 x=1 mealy=0 Dmealy=0 , reset=0
+                 120 x=0 mealy=0 Dmealy=0 , reset=0
+                 160 x=1 mealy=0 Dmealy=0 , reset=0
+                 170 x=0 mealy=0 Dmealy=0 , reset=0
+                 190 x=1 mealy=1 Dmealy=0 , reset=0
+                 194 x=1 mealy=1 Dmealy=1 , reset=0
+                 195 x=1 mealy=0 Dmealy=1 , reset=0
+                 199 x=1 mealy=0 Dmealy=0 , reset=0
+                 200 x=0 mealy=0 Dmealy=0 , reset=0
+Stopped at time : 220 ns : File "C:/cs221_lab/cs224_lab6/sequence_1001_delay_test.v" Line 81

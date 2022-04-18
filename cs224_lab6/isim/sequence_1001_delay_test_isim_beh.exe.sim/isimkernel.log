@@ -1,0 +1,29 @@
+Command line:
+   sequence_1001_delay_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53368
+
+Tue Feb 15 18:42:23 2022
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5145.59 Meg
+
+ Total Signals          : 19
+ Total Nets             : 21
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 112
+Total Line Count : 61
+
+ Total Simulation Time: 0.5 sec
+
+ Current Memory Usage: 4988.3 Meg
+
+Tue Feb 15 18:44:20 2022
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/cs221_lab/cs221_lab2/test_delay_rca_isim_beh.exe" -prj "C:/cs221_lab/cs221_lab2/test_delay_rca_beh.prj" "work.test_delay_rca" "work.glbl" 
